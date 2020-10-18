@@ -1,3 +1,8 @@
+Instructions:
+1. `npm install` to install all dependencies.
+2. `npm run start` to start the web server (port 3000).
+3. `node server.js` to start the API server (port 3001).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
