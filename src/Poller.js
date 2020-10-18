@@ -12,6 +12,7 @@ function Poller() {
   };
 
   useEffect(() => {
+    fetchCurrentTime();
     const intervalId = setInterval(() => fetchCurrentTime(), 1000);
     return () => clearInterval(intervalId);
   });
